@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>公告管理</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="/logoipsum-logo-38.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="index.html" class="logo"
+        ><img src="/logoipsum-logo-6.svg" alt="logo"
+      /></a>
+      <button><span class="material-icons"> search </span></button>
+      <button><span class="material-icons"> mail </span></button>
+      <button>
+        <span class="material-icons"> account_circle </span>
+      </button>
+    </nav>
+    <div class="col">
+      <ul class="col_left">
+        <li class="col_left_item"><a href="#">公告管理</a></li>
+        <li class="col_left_item"><a href="#">訂單修改</a></li>
+        <li class="col_left_item"><a href="#">房間管理</a></li>
+        <li class="col_left_item"><a href="#">餐廳管理</a></li>
+        <li class="col_left_item"><a href="#">行程管理</a></li>
+        <li class="col_left_item"><a href="#">財務報表</a></li>
+        <li class="col_left_item"><a href="#">客戶服務</a></li>
+      </ul>
+      <div class="col_right">
+        <form
+          action="#"
+          class="col_right_main1"
+          method="post"
+          autocomplete="on"
+        >
+          <div class="col_right_main1_sec1">
+            <span>篩選</span>
+            <input type="search" name="" id="" placeholder="請輸入關鍵字" />
+            <button>搜尋</button>
+          </div>
+          <div class="col_right_main1_sec2">
+            <section>
+              <span>公告日期</span>
+              <input type="checkbox" id="today" />
+              <label for="today">今天</label>
+              <input type="checkbox" id="inSevenDays" />
+              <label for="inSevenDays">近7天</label>
+              <input type="checkbox" id="inOneMonth" />
+              <label for="inOneMonth">近1個月</label>
+              <input type="checkbox" id="userDefined" />
+              <label for="userDefined"><input type="date" /></label>
+            </section>
+            <section>
+              <span>下架日期</span>
+              <input type="checkbox" id="today" />
+              <label for="today">今天</label>
+              <input type="checkbox" id="inSevenDays" />
+              <label for="inSevenDays">近7天</label>
+              <input type="checkbox" id="inOneMonth" />
+              <label for="inOneMonth">近1個月</label>
+              <input type="checkbox" id="userDefined" />
+              <label for="userDefined"><input type="date" /></label>
+            </section>
+            <section>
+              <span>公告類型</span>
+              <input type="checkbox" id="housing" />
+              <label for="housing">住房優惠</label>
+              <input type="checkbox" id="dining" />
+              <label for="dining">餐飲優惠</label>
+              <input type="checkbox" id="others" />
+              <label for="others">其他</label>
+            </section>
+            <button>篩選</button>
+          </div>
+        </form>
+        <div class="col_right_main2">
+          <section class="col_right_main2_sec1">
+            <button>新增</button>
+            <button>全選</button>
+            <button>下架</button>
+            <p>共XX筆，頁數1/X</p>
+            <button>
+              <span class="material-icons"> chevron_left </span>
+            </button>
+            <button>
+              <span class="material-icons"> chevron_right </span>
+            </button>
+          </section>
+          <table class="col_right_main2_sec2">
+            <tr>
+              <th>核取</th>
+              <th>場次</th>
+              <th>標題</th>
+              <th>類型</th>
+              <th>公告日期</th>
+              <th>下架日期</th>
+              <th colspan="2">編輯</th>
+            </tr>
+            <tr class="table_list">
+              <td><input type="checkbox" name="" id="" /></td>
+              <td colspan="5"></td>
+              <td>修改</td>
+              <td>下架</td>
+            </tr>
+            <tr class="table_list">
+              <td><input type="checkbox" name="" id="" /></td>
+              <td colspan="5"></td>
+              <td>修改</td>
+              <td>下架</td>
+            </tr>
+            <tr class="table_list">
+              <td><input type="checkbox" name="" id="" /></td>
+              <td colspan="5"></td>
+              <td>修改</td>
+              <td>下架</td>
+            </tr>
+            <tr class="table_list">
+              <td><input type="checkbox" name="" id="" /></td>
+              <td colspan="5"></td>
+              <td>修改</td>
+              <td>下架</td>
+            </tr>
+          </table>
+        </div>
+        <footer>
+          Copyright &copy; 2022 Backend System All rights reserved
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
